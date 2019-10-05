@@ -7,7 +7,7 @@ contract Inbox {
         message = initialMessage;
     }
 
-    function setMessage(String newMessage) public {
+    function setMessage(string newMessage) public {
          message = newMessage;
     }
 }
